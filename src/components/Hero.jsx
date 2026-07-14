@@ -54,7 +54,7 @@ export default function Hero() {
         {/* Stats */}
         <div className="hero__stats">
           <div className="stat-item">
-            <span className="stat-value">50+</span>
+            <span className="stat-value">10</span>
             <span className="stat-label">Kenderaan Tersedia</span>
           </div>
           <div className="stat-divider"></div>

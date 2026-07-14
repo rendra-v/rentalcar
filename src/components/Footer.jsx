@@ -34,10 +34,16 @@ export default function Footer() {
           <div className="footer__col">
             <h4 className="footer__col-title">Kenderaan</h4>
             <ul className="footer__links">
-              <li>BMW 5 Series</li>
-              <li>Toyota Alphard</li>
-              <li>Toyota Innova Reborn</li>
-              <li>Toyota Fortuner</li>
+              <li>Perodua Myvi H 1.5</li>
+              <li>Perodua Axia / Myvi</li>
+              <li>Honda City</li>
+              <li>Nissan Serena</li>
+              <li>MINI Cooper S</li>
+              <li>Mercedes-Benz Hatchback</li>
+              <li>Mercedes-Benz A200</li>
+              <li>Mercedes-Benz C200 W205</li>
+              <li>BMW G30 530i</li>
+              <li>Toyota Velfire ZG</li>
             </ul>
           </div>
 
