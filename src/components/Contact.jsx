@@ -1,6 +1,6 @@
 import './Contact.css';
 
-const WHATSAPP_NUMBER = '6281234567890'; // Tukar kepada nombor WhatsApp anda
+const WHATSAPP_NUMBER = '60172975568'; // Tukar kepada nombor WhatsApp anda
 
 export default function Contact() {
   const handleWhatsApp = () => {
@@ -48,7 +48,7 @@ export default function Contact() {
             </div>
             <div>
               <div className="contact-card__label">Chat via WhatsApp</div>
-              <div className="contact-card__number">+62 812-3456-7890</div>
+              <div className="contact-card__number">+60 17-297 5568</div>
             </div>
           </div>
           <p className="contact-card__desc">
@@ -68,3 +68,4 @@ export default function Contact() {
     </section>
   );
 }
+

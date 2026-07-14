@@ -1,6 +1,6 @@
 import './Footer.css';
 
-const WHATSAPP_NUMBER = '6281234567890';
+const WHATSAPP_NUMBER = '60172975568';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -62,3 +62,4 @@ export default function Footer() {
     </footer>
   );
 }
+

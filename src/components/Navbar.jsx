@@ -24,7 +24,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="https://wa.me/6281234567890?text=Halo%2C+saya+ingin+mengetahui+info+sewa+kereta+MHS+Revolusi"
+          href="https://wa.me/60172975568?text=Halo%2C+saya+ingin+mengetahui+info+sewa+kereta+MHS+Revolusi"
           target="_blank"
           rel="noopener noreferrer"
           className="navbar__cta"
@@ -39,3 +39,4 @@ export default function Navbar() {
     </nav>
   );
 }
+

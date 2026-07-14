@@ -3,7 +3,7 @@ import './Hero.css';
 export default function Hero() {
   const handleWhatsApp = () => {
     const message = encodeURIComponent('Assalamualaikum MHS Revolusi! 🙏 Saya berminat untuk menyewa kereta. Boleh berikan maklumat lanjut?');
-    window.open(`https://wa.me/6281234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/60172975568?text=${message}`, '_blank');
   };
 
   const scrollToFleet = () => {
@@ -79,3 +79,4 @@ export default function Hero() {
     </section>
   );
 }
+

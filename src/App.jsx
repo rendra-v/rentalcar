@@ -6,7 +6,7 @@ import Fleet from './components/Fleet';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-const WHATSAPP_NUMBER = '6281234567890'; // ← Ganti nomor WhatsApp di sini
+const WHATSAPP_NUMBER = '60172975568'; // ← Ganti nomor WhatsApp di sini
 
 function App() {
   const handleFloatingWA = () => {
@@ -43,3 +43,4 @@ function App() {
 }
 
 export default App;
+
