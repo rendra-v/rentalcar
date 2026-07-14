@@ -2,7 +2,7 @@ import './Hero.css';
 
 export default function Hero() {
   const handleWhatsApp = () => {
-    const message = encodeURIComponent('Halo MHS Revolusi! Saya tertarik untuk menyewa mobil. Bisa tolong berikan informasi lebih lanjut?');
+    const message = encodeURIComponent('Assalamualaikum MHS Revolusi! 🙏 Saya berminat untuk menyewa kereta. Boleh berikan maklumat lanjut?');
     window.open(`https://wa.me/6281234567890?text=${message}`, '_blank');
   };
 
@@ -21,24 +21,24 @@ export default function Hero() {
         {/* Badge */}
         <div className="hero__badge" id="hero-badge">
           <span className="badge-dot"></span>
-          Armada Premium Tersedia Sekarang
+          Kenderaan Premium Tersedia Sekarang
         </div>
 
         {/* Heading */}
         <h1 className="hero__title">
-          Sewa Mobil<br />
+          Sewa Kereta<br />
           <span className="hero__title--highlight">Premium</span> &amp;<br />
-          <span className="hero__title--outline">Terpercaya</span>
+          <span className="hero__title--outline">Dipercayai</span>
         </h1>
 
         <p className="hero__desc">
-          Nikmati perjalanan Anda dengan kendaraan premium pilihan kami. Proses mudah, harga transparan, dan layanan 24/7 siap membantu Anda.
+          Nikmati perjalanan anda dengan kenderaan premium pilihan kami. Proses mudah, harga telus, dan khidmat 24/7 sedia membantu anda.
         </p>
 
         {/* CTA Buttons */}
         <div className="hero__actions">
           <button className="btn-primary" id="hero-cta-fleet" onClick={scrollToFleet}>
-            Lihat Armada Kami
+            Lihat Kenderaan Kami
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
@@ -55,23 +55,23 @@ export default function Hero() {
         <div className="hero__stats">
           <div className="stat-item">
             <span className="stat-value">50+</span>
-            <span className="stat-label">Armada Tersedia</span>
+            <span className="stat-label">Kenderaan Tersedia</span>
           </div>
           <div className="stat-divider"></div>
           <div className="stat-item">
             <span className="stat-value">500+</span>
-            <span className="stat-label">Pelanggan Puas</span>
+            <span className="stat-label">Pelanggan Berpuas Hati</span>
           </div>
           <div className="stat-divider"></div>
           <div className="stat-item">
             <span className="stat-value">24/7</span>
-            <span className="stat-label">Siap Melayani</span>
+            <span className="stat-label">Sedia Berkhidmat</span>
           </div>
         </div>
       </div>
 
       {/* Scroll indicator */}
-      <button className="hero__scroll" onClick={scrollToFleet} id="hero-scroll-indicator" aria-label="Scroll ke bawah">
+      <button className="hero__scroll" onClick={scrollToFleet} id="hero-scroll-indicator" aria-label="Tatal ke bawah">
         <div className="scroll-mouse">
           <div className="scroll-wheel"></div>
         </div>

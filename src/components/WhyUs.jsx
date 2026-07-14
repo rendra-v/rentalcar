@@ -4,26 +4,26 @@ const reasons = [
   {
     id: 'fleet',
     icon: '🚗',
-    title: 'Armada Premium',
-    desc: 'Semua kendaraan terawat dengan baik dan selalu dalam kondisi prima untuk perjalanan Anda.',
+    title: 'Kenderaan Premium',
+    desc: 'Semua kenderaan diselenggara dengan baik dan sentiasa dalam keadaan terbaik untuk perjalanan anda.',
   },
   {
     id: 'driver',
     icon: '👨‍✈️',
-    title: 'Sopir Profesional',
-    desc: 'Tersedia pilihan dengan sopir berpengalaman yang ramah dan mengenal rute terbaik.',
+    title: 'Pemandu Profesional',
+    desc: 'Tersedia pilihan dengan pemandu berpengalaman yang mesra dan mengenali laluan terbaik.',
   },
   {
     id: 'price',
     icon: '💰',
-    title: 'Harga Transparan',
-    desc: 'Tidak ada biaya tersembunyi. Harga yang Anda lihat adalah harga yang Anda bayar.',
+    title: 'Harga Telus',
+    desc: 'Tiada bayaran tersembunyi. Harga yang anda lihat adalah harga yang anda bayar.',
   },
   {
     id: 'support',
     icon: '🕐',
-    title: 'Support 24/7',
-    desc: 'Tim kami siap membantu Anda kapan saja melalui WhatsApp untuk pertanyaan dan kebutuhan.',
+    title: 'Sokongan 24/7',
+    desc: 'Pasukan kami sedia membantu anda bila-bila masa melalui WhatsApp untuk sebarang pertanyaan dan keperluan.',
   },
 ];
 
@@ -32,12 +32,12 @@ export default function WhyUs() {
     <section className="whyus" id="about">
       <div className="container">
         <div className="whyus__header">
-          <div className="section-tag">✨ Mengapa Kami?</div>
+          <div className="section-tag">✨ Mengapa Pilih Kami?</div>
           <h2 className="section-title">
-            Kepercayaan Anda adalah <span>Prioritas Kami</span>
+            Kepercayaan Anda adalah <span>Keutamaan Kami</span>
           </h2>
           <p className="section-subtitle">
-            Kami hadir untuk memastikan setiap perjalanan Anda nyaman, aman, dan berkesan.
+            Kami hadir untuk memastikan setiap perjalanan anda selesa, selamat, dan berkesan.
           </p>
         </div>
 

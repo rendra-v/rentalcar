@@ -6,7 +6,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent('Halo MHS Revolusi! Saya ingin informasi tentang rental mobil.');
+    const message = encodeURIComponent('Assalamualaikum MHS Revolusi! Saya ingin maklumat tentang sewa kereta.');
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
   };
 
@@ -20,7 +20,7 @@ export default function Footer() {
               <img src="/logo_mhs.png" alt="MHS Revolusi" className="footer__logo-img" />
             </div>
             <p className="footer__tagline">
-              Mitra terpercaya untuk perjalanan Anda. Armada premium, harga bersahabat.
+              Rakan dipercayai untuk perjalanan anda. Kenderaan premium, harga berpatutan.
             </p>
             <button className="footer__wa-btn" onClick={handleWhatsApp} id="footer-whatsapp">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -30,9 +30,9 @@ export default function Footer() {
             </button>
           </div>
 
-          {/* Armada */}
+          {/* Kenderaan */}
           <div className="footer__col">
-            <h4 className="footer__col-title">Armada</h4>
+            <h4 className="footer__col-title">Kenderaan</h4>
             <ul className="footer__links">
               <li>BMW 5 Series</li>
               <li>Toyota Alphard</li>
@@ -41,22 +41,22 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Layanan */}
+          {/* Perkhidmatan */}
           <div className="footer__col">
-            <h4 className="footer__col-title">Layanan</h4>
+            <h4 className="footer__col-title">Perkhidmatan</h4>
             <ul className="footer__links">
               <li>Sewa Harian</li>
               <li>Sewa Bulanan</li>
-              <li>Antar Jemput Bandara</li>
-              <li>Dengan Sopir</li>
-              <li>Tanpa Sopir</li>
+              <li>Hantar Jemput Lapangan Terbang</li>
+              <li>Dengan Pemandu</li>
+              <li>Tanpa Pemandu</li>
             </ul>
           </div>
         </div>
 
         <div className="footer__bottom">
-          <p>© {year} MHS Revolusi. Semua hak dilindungi.</p>
-          <p>Dibuat dengan ❤️ untuk pelanggan setia kami.</p>
+          <p>© {year} MHS Revolusi. Hak cipta terpelihara.</p>
+          <p>Dibuat dengan ❤️ untuk pelanggan setia kami. Terima kasih kerana mempercayai kami!</p>
         </div>
       </div>
     </footer>

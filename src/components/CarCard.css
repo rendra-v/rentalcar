@@ -1,10 +1,10 @@
 /* =============================================
-   Car Card Component Styles
+   Car Card - White & Blue Theme
    ============================================= */
 
 .car-card {
   position: relative;
-  background: var(--color-bg-card);
+  background: #ffffff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -12,12 +12,13 @@
   cursor: default;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 2px 12px rgba(37, 99, 235, 0.06);
 }
 
 .car-card:hover {
   border-color: var(--color-border-hover);
   transform: translateY(-6px);
-  box-shadow: var(--shadow-card), var(--shadow-glow);
+  box-shadow: 0 12px 40px rgba(37, 99, 235, 0.18);
 }
 
 /* Badge */
@@ -41,7 +42,7 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #0d0d14;
+  background: #eff6ff;
 }
 
 .car-card__img-skeleton {
@@ -49,9 +50,9 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(255,255,255,0.03) 25%,
-    rgba(255,255,255,0.07) 50%,
-    rgba(255,255,255,0.03) 75%
+    rgba(37, 99, 235, 0.04) 25%,
+    rgba(37, 99, 235, 0.09) 50%,
+    rgba(37, 99, 235, 0.04) 75%
   );
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
@@ -83,8 +84,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 50%;
-  background: linear-gradient(to top, var(--color-bg-card), transparent);
+  height: 40%;
+  background: linear-gradient(to top, rgba(240, 246, 255, 0.9), transparent);
   pointer-events: none;
 }
 
@@ -138,8 +139,9 @@
 }
 
 .spec-item svg {
-  color: var(--color-text-muted);
+  color: var(--color-primary);
   flex-shrink: 0;
+  opacity: 0.7;
 }
 
 /* Features */
@@ -152,9 +154,9 @@
 .feature-tag {
   font-size: 0.72rem;
   font-weight: 500;
-  color: var(--color-text-secondary);
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--color-border);
+  color: var(--color-primary);
+  background: rgba(37, 99, 235, 0.07);
+  border: 1px solid rgba(37, 99, 235, 0.15);
   padding: 3px 10px;
   border-radius: 100px;
 }

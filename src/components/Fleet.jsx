@@ -1,7 +1,7 @@
 import CarCard from './CarCard';
 import './Fleet.css';
 
-const WHATSAPP_NUMBER = '6281234567890'; // Ganti dengan nomor WhatsApp Anda
+const WHATSAPP_NUMBER = '6281234567890'; // Tukar kepada nombor WhatsApp anda
 
 const cars = [
   {
@@ -9,26 +9,26 @@ const cars = [
     name: 'BMW 5 Series',
     category: 'Sedan Mewah',
     image: '/car_bmw.png',
-    price: 'Rp 1.200.000',
+    price: 'RM 1,200',
     pricePeriod: '/ hari',
     seats: 5,
-    transmission: 'Automatic',
-    fuel: 'Bensin',
-    features: ['GPS Navigation', 'AC Dual Zone', 'Leather Seat', 'Sunroof'],
-    badge: 'Terpopuler',
-    badgeColor: 'gold',
+    transmission: 'Automatik',
+    fuel: 'Petrol',
+    features: ['GPS Navigation', 'AC Dual Zone', 'Tempat Duduk Kulit', 'Sunroof'],
+    badge: 'Paling Popular',
+    badgeColor: 'blue',
   },
   {
     id: 'toyota-alphard',
     name: 'Toyota Alphard',
     category: 'MPV Premium',
     image: '/car_alphard.png',
-    price: 'Rp 1.500.000',
+    price: 'RM 1,500',
     pricePeriod: '/ hari',
     seats: 7,
-    transmission: 'Automatic',
-    fuel: 'Bensin',
-    features: ['Captain Seat', 'Entertainment System', 'AC 3 Zone', 'Power Door'],
+    transmission: 'Automatik',
+    fuel: 'Petrol',
+    features: ['Captain Seat', 'Sistem Hiburan', 'AC 3 Zon', 'Pintu Elektrik'],
     badge: 'Eksklusif',
     badgeColor: 'purple',
   },
@@ -37,13 +37,13 @@ const cars = [
     name: 'Toyota Innova Reborn',
     category: 'MPV Keluarga',
     image: '/car_innova.png',
-    price: 'Rp 650.000',
+    price: 'RM 650',
     pricePeriod: '/ hari',
     seats: 7,
-    transmission: 'Automatic',
+    transmission: 'Automatik',
     fuel: 'Diesel',
-    features: ['AC Double Blower', 'Airbag 6', 'USB Charger', 'Cruise Control'],
-    badge: 'Terjangkau',
+    features: ['AC Double Blower', 'Beg Udara 6', 'Pengecas USB', 'Cruise Control'],
+    badge: 'Berpatutan',
     badgeColor: 'green',
   },
   {
@@ -51,13 +51,13 @@ const cars = [
     name: 'Toyota Fortuner',
     category: 'SUV Tangguh',
     image: '/car_fortuner.png',
-    price: 'Rp 900.000',
+    price: 'RM 900',
     pricePeriod: '/ hari',
     seats: 7,
-    transmission: 'Automatic',
+    transmission: 'Automatik',
     fuel: 'Diesel',
-    features: ['4x4 AWD', 'Off-Road Mode', 'LED Headlights', 'TPMS'],
-    badge: 'Petualangan',
+    features: ['4x4 AWD', 'Mod Off-Road', 'Lampu LED', 'TPMS'],
+    badge: 'Pengembaraan',
     badgeColor: 'orange',
   },
 ];
@@ -67,7 +67,7 @@ export default function Fleet() {
     <section className="fleet" id="fleet">
       <div className="bg-orb" style={{
         width: '600px', height: '600px',
-        background: 'radial-gradient(circle, rgba(255,213,0,0.06) 0%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(37,99,235,0.07) 0%, transparent 70%)',
         position: 'absolute', top: '50%', left: '50%',
         transform: 'translate(-50%, -50%)',
         filter: 'blur(60px)',
@@ -77,12 +77,12 @@ export default function Fleet() {
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         {/* Header */}
         <div className="fleet__header">
-          <div className="section-tag">🚗 Armada Kami</div>
+          <div className="section-tag">🚗 Kenderaan Kami</div>
           <h2 className="section-title">
-            Pilihan Kendaraan <span>Premium</span>
+            Pilihan Kenderaan <span>Premium</span>
           </h2>
           <p className="section-subtitle">
-            Dari sedan mewah hingga SUV tangguh, kami memiliki armada terbaik untuk setiap kebutuhan perjalanan Anda.
+            Dari sedan mewah hingga SUV tangguh, kami mempunyai armada terbaik untuk setiap keperluan perjalanan anda.
           </p>
         </div>
 

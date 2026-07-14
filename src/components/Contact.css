@@ -1,18 +1,19 @@
 /* =============================================
-   Contact Section Styles
+   Contact Section - White & Blue Theme
    ============================================= */
 
 .contact {
   position: relative;
   padding: 120px 0;
   overflow: hidden;
+  background: #ffffff;
 }
 
 .contact__bg-glow {
   position: absolute;
   width: 700px;
   height: 400px;
-  background: radial-gradient(ellipse, rgba(255, 213, 0, 0.07) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(37, 99, 235, 0.07) 0%, transparent 70%);
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -49,7 +50,7 @@
 .contact-info-icon {
   width: 44px;
   height: 44px;
-  background: var(--color-bg-glass);
+  background: rgba(37, 99, 235, 0.08);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
   display: flex;
@@ -76,7 +77,7 @@
 
 /* WhatsApp Card */
 .contact__card {
-  background: var(--color-bg-card);
+  background: #ffffff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   padding: 36px;
@@ -85,6 +86,7 @@
   gap: 20px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 8px 40px rgba(37, 99, 235, 0.1);
 }
 
 .contact__card::before {
@@ -136,7 +138,7 @@
   color: var(--color-text-secondary);
   line-height: 1.65;
   padding: 16px;
-  background: rgba(255, 255, 255, 0.03);
+  background: #f0f6ff;
   border-radius: var(--radius-sm);
   border: 1px solid var(--color-border);
 }

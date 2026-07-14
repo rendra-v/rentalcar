@@ -18,13 +18,13 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <ul className="navbar__links">
-          <li><button className="nav-link" onClick={scrollToFleet} id="nav-fleet">Armada</button></li>
+          <li><button className="nav-link" onClick={scrollToFleet} id="nav-fleet">Kenderaan</button></li>
           <li><button className="nav-link" onClick={scrollToContact} id="nav-contact">Hubungi Kami</button></li>
         </ul>
 
         {/* CTA */}
         <a
-          href="https://wa.me/6281234567890?text=Halo%2C+saya+ingin+mengetahui+info+rental+mobil"
+          href="https://wa.me/6281234567890?text=Halo%2C+saya+ingin+mengetahui+info+sewa+kereta+MHS+Revolusi"
           target="_blank"
           rel="noopener noreferrer"
           className="navbar__cta"

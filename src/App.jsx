@@ -10,7 +10,7 @@ const WHATSAPP_NUMBER = '6281234567890'; // ← Ganti nomor WhatsApp di sini
 
 function App() {
   const handleFloatingWA = () => {
-    const message = encodeURIComponent('Halo MHS Revolusi! Saya ingin tanya tentang rental mobil.');
+    const message = encodeURIComponent('Assalamualaikum MHS Revolusi! Saya ingin bertanya tentang sewa kereta.');
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
   };
 
