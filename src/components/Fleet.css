@@ -1,0 +1,50 @@
+/* =============================================
+   Fleet Section Styles
+   ============================================= */
+
+.fleet {
+  position: relative;
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+/* Header */
+.fleet__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 64px;
+}
+
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 213, 0, 0.08);
+  border: 1px solid rgba(255, 213, 0, 0.2);
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 100px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Grid */
+.fleet__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 640px) {
+  .fleet {
+    padding: 80px 0;
+  }
+  .fleet__grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

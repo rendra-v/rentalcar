@@ -1,0 +1,96 @@
+/* =============================================
+   Why Us Section Styles
+   ============================================= */
+
+.whyus {
+  padding: 100px 0;
+  background: linear-gradient(180deg, var(--color-bg) 0%, #0c0c13 50%, var(--color-bg) 100%);
+}
+
+.whyus__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 56px;
+}
+
+.whyus__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+/* Reason Card */
+.reason-card {
+  background: var(--color-bg-glass);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.reason-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+  opacity: 0;
+  transition: opacity var(--transition-smooth);
+}
+
+.reason-card:hover {
+  border-color: var(--color-border-hover);
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card);
+}
+
+.reason-card:hover::before {
+  opacity: 1;
+}
+
+.reason-card__icon {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.reason-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.reason-card__desc {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 640px) {
+  .whyus {
+    padding: 72px 0;
+  }
+  .whyus__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .reason-card {
+    padding: 24px 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .whyus__grid {
+    grid-template-columns: 1fr;
+  }
+}
