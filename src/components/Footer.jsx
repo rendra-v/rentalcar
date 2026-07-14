@@ -1,4 +1,4 @@
-import './Footer.css';
+﻿import './Footer.css';
 
 const WHATSAPP_NUMBER = '60172975568';
 
@@ -6,7 +6,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent('Assalamualaikum MHS Revolusi! Saya ingin maklumat tentang sewa kereta.');
+    const message = encodeURIComponent('Halo MHS Revolusi! Saya ingin maklumat tentang sewa kereta.');
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
   };
 

@@ -2,7 +2,7 @@ import './Hero.css';
 
 export default function Hero() {
   const handleWhatsApp = () => {
-    const message = encodeURIComponent('Assalamualaikum MHS Revolusi! 🙏 Saya berminat untuk menyewa kereta. Boleh berikan maklumat lanjut?');
+    const message = encodeURIComponent('Halo MHS Revolusi! 🙏 Saya berminat untuk menyewa kereta. Boleh berikan maklumat lanjut?');
     window.open(`https://wa.me/60172975568?text=${message}`, '_blank');
   };
 
@@ -12,12 +12,16 @@ export default function Hero() {
 
   return (
     <section className="hero" id="hero">
-      {/* Background decoration */}
       <div className="bg-orb bg-orb-1"></div>
       <div className="bg-orb bg-orb-2"></div>
       <div className="hero__grid-bg"></div>
 
       <div className="container hero__content">
+        {/* === LOGO DI HEADLINE === */}
+        <div className="hero__logo-wrapper">
+          <img src="/logo_mhs.png" alt="MHS Revolusi" className="hero__logo" />
+        </div>
+
         {/* Badge */}
         <div className="hero__badge" id="hero-badge">
           <span className="badge-dot"></span>
@@ -70,7 +74,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <button className="hero__scroll" onClick={scrollToFleet} id="hero-scroll-indicator" aria-label="Tatal ke bawah">
         <div className="scroll-mouse">
           <div className="scroll-wheel"></div>
@@ -79,4 +82,3 @@ export default function Hero() {
     </section>
   );
 }
-

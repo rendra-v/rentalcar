@@ -1,10 +1,10 @@
-import './Contact.css';
+﻿import './Contact.css';
 
 const WHATSAPP_NUMBER = '60172975568'; // Tukar kepada nombor WhatsApp anda
 
 export default function Contact() {
   const handleWhatsApp = () => {
-    const message = encodeURIComponent('Assalamualaikum MHS Revolusi! 👋 Saya ingin mendapatkan maklumat tentang perkhidmatan sewa kereta anda.');
+    const message = encodeURIComponent('Halo MHS Revolusi! 👋 Saya ingin mendapatkan maklumat tentang perkhidmatan sewa kereta anda.');
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
   };
 

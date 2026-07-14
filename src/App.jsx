@@ -1,4 +1,4 @@
-import './App.css';
+﻿import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import WhyUs from './components/WhyUs';
@@ -10,7 +10,7 @@ const WHATSAPP_NUMBER = '60172975568'; // ← Ganti nomor WhatsApp di sini
 
 function App() {
   const handleFloatingWA = () => {
-    const message = encodeURIComponent('Assalamualaikum MHS Revolusi! Saya ingin bertanya tentang sewa kereta.');
+    const message = encodeURIComponent('Halo MHS Revolusi! Saya ingin bertanya tentang sewa kereta.');
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
   };
 

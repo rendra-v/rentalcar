@@ -5,6 +5,23 @@ const WHATSAPP_NUMBER = '60172975568'; // +60 17-297 5568
 
 const cars = [
   {
+    id: 'axia-myvi',
+    name: 'Perodua Axia / Myvi',
+    category: 'City Car',
+    image: '/axiamyvi.jpeg',
+    pricing: [
+      { label: '1 Hari',  price: 'RM 150'   },
+      { label: '3 Hari',  price: 'RM 400'   },
+      { label: '1 Bulan', price: 'RM 1,900' },
+    ],
+    seats: 5,
+    transmission: 'Automatik',
+    fuel: 'Petrol',
+    features: ['Ekonomi', 'Easy Park', 'Kamera Belakang', 'USB Charging'],
+    badge: 'Paling Jimat',
+    badgeColor: 'green',
+  },
+  {
     id: 'myvi-h',
     name: 'Perodua Myvi H 1.5',
     year: '2020',
@@ -23,27 +40,10 @@ const cars = [
     badgeColor: 'green',
   },
   {
-    id: 'axia-myvi',
-    name: 'Perodua Axia / Myvi',
-    category: 'City Car',
-    image: '/axiamyvi.jpeg',
-    pricing: [
-      { label: '1 Hari',  price: 'RM 150'   },
-      { label: '3 Hari',  price: 'RM 400'   },
-      { label: '1 Bulan', price: 'RM 1,900' },
-    ],
-    seats: 5,
-    transmission: 'Automatik',
-    fuel: 'Petrol',
-    features: ['Ekonomi', 'Easy Park', 'Kamera Belakang', 'USB Charging'],
-    badge: 'Paling Jimat',
-    badgeColor: 'green',
-  },
-  {
     id: 'honda-city',
     name: 'Honda City',
     category: 'Sedan',
-    image: '/hondacity24.jpeg',
+    image: '/hondacity.jpeg',
     pricing: [
       { label: '1 Hari',  price: 'RM 250'   },
       { label: '3 Hari',  price: 'RM 650'   },
@@ -109,9 +109,9 @@ const cars = [
   },
   {
     id: 'mercy-a200',
-    name: 'Mercedes-Benz A200 Sedan',
+    name: 'Mercedes-Benz A200',
     category: 'Sedan Mewah',
-    image: '/mercya200sedan.jpeg',
+    image: '/mercya200.jpeg',
     pricing: [
       { label: '1 Hari',  price: 'RM 650'   },
       { label: '3 Hari',  price: 'RM 1,800' },
@@ -182,7 +182,6 @@ export default function Fleet() {
     <section className="fleet" id="fleet">
       <div className="fleet__orb"></div>
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-        {/* Header */}
         <div className="fleet__header">
           <div className="section-tag">🚗 Kenderaan Kami</div>
           <h2 className="section-title">
@@ -192,8 +191,6 @@ export default function Fleet() {
             10 pilihan kenderaan — dari city car jimat hingga MPV mewah dan sedan premium untuk setiap keperluan anda.
           </p>
         </div>
-
-        {/* Grid */}
         <div className="fleet__grid">
           {cars.map((car) => (
             <CarCard key={car.id} car={car} whatsappNumber={WHATSAPP_NUMBER} />

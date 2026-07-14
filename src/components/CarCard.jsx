@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import './CarCard.css';
 
 const badgeStyles = {
@@ -14,7 +14,7 @@ export default function CarCard({ car, whatsappNumber }) {
   const handleAsk = () => {
     const priceLine = car.pricing.map(p => `${p.label}: ${p.price}`).join(' | ');
     const message = encodeURIComponent(
-      `Assalamualaikum MHS Revolusi! 👋\n\nSaya berminat untuk menyewa *${car.name}* (${car.category}).\n\n💰 Harga:\n${priceLine}\n\nBoleh tolong sahkan ketersediaan dan maklumat lanjut?\n\nTerima kasih! 🙏`
+      `Halo MHS Revolusi! 👋\n\nSaya berminat untuk menyewa *${car.name}* (${car.category}).\n\n💰 Harga:\n${priceLine}\n\nBoleh tolong sahkan ketersediaan dan maklumat lanjut?\n\nTerima kasih! 🙏`
     );
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
   };
