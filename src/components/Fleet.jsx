@@ -10,8 +10,8 @@ const cars = [
     category: 'City Car',
     image: '/axiamyvi.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 150'   },
-      { label: '3 Hari',  price: 'RM 400'   },
+      { label: '1 Hari', price: 'RM 150' },
+      { label: '3 Hari', price: 'RM 400' },
       { label: '1 Bulan', price: 'RM 1,900' },
     ],
     seats: 5,
@@ -28,8 +28,8 @@ const cars = [
     category: 'Hatchback',
     image: '/myvi.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 130'   },
-      { label: '3 Hari',  price: 'RM 350'   },
+      { label: '1 Hari', price: 'RM 130' },
+      { label: '3 Hari', price: 'RM 350' },
       { label: '1 Bulan', price: 'RM 1,700' },
     ],
     seats: 5,
@@ -45,8 +45,8 @@ const cars = [
     category: 'Sedan',
     image: '/hondacity.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 250'   },
-      { label: '3 Hari',  price: 'RM 650'   },
+      { label: '1 Hari', price: 'RM 250' },
+      { label: '3 Hari', price: 'RM 650' },
       { label: '1 Bulan', price: 'RM 2,800' },
     ],
     seats: 5,
@@ -62,8 +62,8 @@ const cars = [
     category: 'MPV Keluarga',
     image: '/nissanserena.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 200'   },
-      { label: '3 Hari',  price: 'RM 1,000' },
+      { label: '1 Hari', price: 'RM 200' },
+      { label: '3 Hari', price: 'RM 1,000' },
       { label: '1 Bulan', price: 'RM 3,900' },
     ],
     seats: 8,
@@ -79,8 +79,8 @@ const cars = [
     category: 'Hatchback Premium',
     image: '/minicoopers.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 450'   },
-      { label: '3 Hari',  price: 'RM 1,200' },
+      { label: '1 Hari', price: 'RM 450' },
+      { label: '3 Hari', price: 'RM 1,200' },
       { label: '1 Bulan', price: 'RM 5,500' },
     ],
     seats: 4,
@@ -96,8 +96,8 @@ const cars = [
     category: 'Hatchback Mewah',
     image: '/mercyhatchback.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 650'   },
-      { label: '3 Hari',  price: 'RM 1,800' },
+      { label: '1 Hari', price: 'RM 650' },
+      { label: '3 Hari', price: 'RM 1,800' },
       { label: '1 Bulan', price: 'RM 6,500' },
     ],
     seats: 5,
@@ -113,8 +113,8 @@ const cars = [
     category: 'Sedan Mewah',
     image: '/mercya200.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 650'   },
-      { label: '3 Hari',  price: 'RM 1,800' },
+      { label: '1 Hari', price: 'RM 650' },
+      { label: '3 Hari', price: 'RM 1,800' },
       { label: '1 Bulan', price: 'RM 8,000' },
     ],
     seats: 5,
@@ -130,8 +130,8 @@ const cars = [
     category: 'Sedan Mewah',
     image: '/mercyc200.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 600'   },
-      { label: '3 Hari',  price: 'RM 1,600' },
+      { label: '1 Hari', price: 'RM 600' },
+      { label: '3 Hari', price: 'RM 1,600' },
       { label: '1 Bulan', price: 'RM 7,000' },
     ],
     seats: 5,
@@ -147,8 +147,8 @@ const cars = [
     category: 'Sedan Mewah',
     image: '/bmwg30.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 750'   },
-      { label: '3 Hari',  price: 'RM 1,900' },
+      { label: '1 Hari', price: 'RM 750' },
+      { label: '3 Hari', price: 'RM 1,900' },
       { label: '1 Bulan', price: 'RM 8,000' },
     ],
     seats: 5,
@@ -164,8 +164,8 @@ const cars = [
     category: 'MPV Premium',
     image: '/velfirezg.jpeg',
     pricing: [
-      { label: '1 Hari',  price: 'RM 800'   },
-      { label: '3 Hari',  price: 'RM 2,100' },
+      { label: '1 Hari', price: 'RM 800' },
+      { label: '3 Hari', price: 'RM 2,100' },
       { label: '1 Bulan', price: 'RM 8,500' },
     ],
     seats: 7,
@@ -188,7 +188,7 @@ export default function Fleet() {
             Pilihan Kereta <span>Dipercayai Ramai</span>
           </h2>
           <p className="section-subtitle">
-            10 pilihan kereta — dari city car jimat hingga MPV mewah dan sedan premium untuk setiap keperluan anda.
+            10 pilihan kereta — dari city car jimat hingga MPV mewah dan sedan dipercayai ramai untuk setiap keperluan anda.
           </p>
         </div>
         <div className="fleet__grid">
