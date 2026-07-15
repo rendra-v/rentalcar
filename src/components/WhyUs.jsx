@@ -4,20 +4,14 @@ const reasons = [
   {
     id: 'fleet',
     icon: '🚗',
-    title: 'Kenderaan Premium',
-    desc: 'Semua kenderaan diselenggara dengan baik dan sentiasa dalam keadaan terbaik untuk perjalanan anda.',
-  },
-  {
-    id: 'driver',
-    icon: '👨‍✈️',
-    title: 'Pemandu Profesional',
-    desc: 'Tersedia pilihan dengan pemandu berpengalaman yang mesra dan mengenali laluan terbaik.',
+    title: 'Kereta Berkualiti',
+    desc: 'Kereta bersih, selesa dan sentiasa dalam keadaan terbaik untuk setiap perjalanan anda.',
   },
   {
     id: 'price',
     icon: '💰',
-    title: 'Harga Telus',
-    desc: 'Tiada bayaran tersembunyi. Harga yang anda lihat adalah harga yang anda bayar.',
+    title: 'Harga Terbaik',
+    desc: 'Harga telus tanpa caj tersembunyi. Harga yang anda lihat, itulah yang  anda bayar',
   },
   {
     id: 'support',

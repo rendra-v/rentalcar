@@ -18,7 +18,7 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <ul className="navbar__links">
-          <li><button className="nav-link" onClick={scrollToFleet} id="nav-fleet">Kenderaan</button></li>
+          <li><button className="nav-link" onClick={scrollToFleet} id="nav-fleet">Kereta</button></li>
           <li><button className="nav-link" onClick={scrollToContact} id="nav-contact">Hubungi Kami</button></li>
         </ul>
       </div>

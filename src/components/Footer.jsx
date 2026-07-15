@@ -1,4 +1,4 @@
-﻿import './Footer.css';
+import './Footer.css';
 
 const WHATSAPP_NUMBER = '60172975568';
 
@@ -20,7 +20,7 @@ export default function Footer() {
               <img src="/logo_mhs.png" alt="MHS Revolusi" className="footer__logo-img" />
             </div>
             <p className="footer__tagline">
-              Rakan dipercayai untuk perjalanan anda. Kenderaan premium, harga berpatutan.
+              Rakan dipercayai untuk perjalanan anda. Kereta premium, harga berpatutan.
             </p>
             <button className="footer__wa-btn" onClick={handleWhatsApp} id="footer-whatsapp">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -32,7 +32,7 @@ export default function Footer() {
 
           {/* Kenderaan */}
           <div className="footer__col">
-            <h4 className="footer__col-title">Kenderaan</h4>
+            <h4 className="footer__col-title">Kereta</h4>
             <ul className="footer__links">
               <li>Perodua Myvi H 1.5</li>
               <li>Perodua Axia / Myvi</li>

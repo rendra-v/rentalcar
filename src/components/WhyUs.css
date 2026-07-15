@@ -17,8 +17,8 @@
 
 .whyus__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 
 /* Reason Card */
@@ -77,21 +77,17 @@
   line-height: 1.7;
 }
 
+@media (max-width: 860px) {
+  .whyus__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 640px) {
   .whyus {
     padding: 72px 0;
   }
-  .whyus__grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
   .reason-card {
     padding: 24px 18px;
-  }
-}
-
-@media (max-width: 400px) {
-  .whyus__grid {
-    grid-template-columns: 1fr;
   }
 }

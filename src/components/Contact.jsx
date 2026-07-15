@@ -1,4 +1,4 @@
-﻿import './Contact.css';
+import './Contact.css';
 
 const WHATSAPP_NUMBER = '60172975568'; // Tukar kepada nombor WhatsApp anda
 
@@ -15,10 +15,13 @@ export default function Contact() {
         <div className="contact__text">
           <div className="section-tag">💬 Hubungi Kami</div>
           <h2 className="section-title" style={{ textAlign: 'left' }}>
-            Bersedia untuk <span>Perjalanan</span><br />yang Tidak Terlupakan?
+            Sedia untuk bergerak? <span>Dapatkan</span><br />
+            kereta yang bersih, selesa dan harga berpatutan.<br />
+            Hubungi kami sekarang dan buat tempahan<br />
+            dalam beberapa minit sahaja
           </h2>
           <p className="section-subtitle" style={{ textAlign: 'left', margin: 0 }}>
-            Pasukan kami sedia membantu anda mencari kenderaan yang sesuai. Hubungi kami sekarang melalui WhatsApp dan dapatkan tawaran terbaik!
+            Pasukan kami sedia membantu anda mencari kereta yang sesuai. Hubungi kami sekarang melalui WhatsApp dan dapatkan tawaran terbaik!
           </p>
 
           <div className="contact__info">
@@ -26,7 +29,7 @@ export default function Contact() {
               <div className="contact-info-icon">📍</div>
               <div>
                 <div className="contact-info-label">Lokasi</div>
-                <div className="contact-info-value">Malaysia</div>
+                <div className="contact-info-value">Kuala Lumpur Malaysia</div>
               </div>
             </div>
             <div className="contact-info-item">

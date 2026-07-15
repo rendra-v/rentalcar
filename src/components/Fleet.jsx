@@ -183,12 +183,12 @@ export default function Fleet() {
       <div className="fleet__orb"></div>
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div className="fleet__header">
-          <div className="section-tag">🚗 Kenderaan Kami</div>
+          <div className="section-tag">🚗 Kereta Kami</div>
           <h2 className="section-title">
-            Pilihan Kenderaan <span>Premium</span>
+            Pilihan Kereta <span>Dipercayai Ramai</span>
           </h2>
           <p className="section-subtitle">
-            10 pilihan kenderaan — dari city car jimat hingga MPV mewah dan sedan premium untuk setiap keperluan anda.
+            10 pilihan kereta — dari city car jimat hingga MPV mewah dan sedan premium untuk setiap keperluan anda.
           </p>
         </div>
         <div className="fleet__grid">

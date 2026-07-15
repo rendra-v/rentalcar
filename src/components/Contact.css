@@ -34,6 +34,12 @@
   gap: 20px;
 }
 
+/* Kecilkan font heading supaya teks panjang muat dengan kemas */
+.contact__text .section-title {
+  font-size: clamp(1.5rem, 2.8vw, 2.1rem);
+  line-height: 1.35;
+}
+
 .contact__info {
   display: flex;
   flex-direction: column;
