@@ -29,7 +29,7 @@ export default function Contact() {
               <div className="contact-info-icon">📍</div>
               <div>
                 <div className="contact-info-label">Lokasi</div>
-                <div className="contact-info-value">Kuala Lumpur Malaysia</div>
+                <div className="contact-info-value">Hulu Langat Base, Cheras, Ampang, Kajang, Kuala Lumpur</div>
               </div>
             </div>
             <div className="contact-info-item">
